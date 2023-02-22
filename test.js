@@ -1,0 +1,10 @@
+const lib = require('./build/Release/chkdog.node')
+
+console.log("checkUSBKey", lib.checkUSBKey())
+console.log("getExpDate", lib.getExpDate())
+console.log("isLimit", lib.isLimit())
+console.log("checkMacInfo", lib.checkMacInfo())
+console.log("getFingerprint", lib.getFingerprint())
+console.log("updateFingerprint", lib.updateFingerprint())
+console.log("getHardwareInfo", lib.getHardwareInfo())
+console.log("getDogMemoryInfo", lib.getDogMemoryInfo())

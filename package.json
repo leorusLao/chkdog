@@ -1,0 +1,25 @@
+{
+  "name": "chkdog",
+  "version": "1.0.0",
+  "description": "chkdog",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/leorusLao/chkdog.git"
+  },
+  "author": "Leorus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leorusLao/chkdog/issues"
+  },
+  "homepage": "https://github.com/leorusLao/chkdog#readme",
+  "devDependencies": {
+    "node-addon-api": "^6.0.0",
+    "node-gyp": "^9.3.1"
+  }
+}
